@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19fe79ec-4f9e-48d8-838b-cf141e146952" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/backend.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/frontend.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/postgres-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/postgres-secret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/postgres.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Iv0ojqS4aO8Ol3rFM1pteLDJck" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19fe79ec-4f9e-48d8-838b-cf141e146952" name="Changes" comment="" />
+      <created>1671046928086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671046928086</updated>
+      <workItem from="1671046929661" duration="9249000" />
+      <workItem from="1671204833149" duration="9504000" />
+      <workItem from="1671230622410" duration="557000" />
+      <workItem from="1671463373569" duration="528000" />
+      <workItem from="1671463931733" duration="32000" />
+      <workItem from="1671463964390" duration="53000" />
+      <workItem from="1671464018823" duration="27000" />
+      <workItem from="1671464049967" duration="111000" />
+      <workItem from="1671464162049" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

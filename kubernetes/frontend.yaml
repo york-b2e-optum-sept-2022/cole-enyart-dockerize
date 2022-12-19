@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: frontend
+          ports:
+            - containerPort: 3000
+          env:
+            - name: USER_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: postgres-user
+            - name: USER_PWD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: postgres-password
+            - name: DB_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: postgres-config
+                  key: postgres-url
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+spec:
+  type: LoadBalancer
+  selector:
+    app: frontend
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
